@@ -1,6 +1,6 @@
 # HungerStation Saudi Market Analysis (Project in progress)
 
-**Live at**: `https://aliya-create.github.io/HungerStation-Saudi-Market-Analysis/#market`
+**Live at**: https://aliya-create.github.io/HungerStation-Saudi-Market-Analysis/#market
 ---
 
 ## Project Summary
@@ -22,6 +22,6 @@ Deep-dive analysis of HungerStation's operational challenges in Saudi Arabia's $
 ---
 
 ## Sources
-**Market**: [Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/saudi-arabia-delivery-apps-market) | [TechSci](https://www.techsciresearch.com/report/saudi-arabia-online-food-ordering-and-delivery-market/7245.html) [web:16]  
-**Complaints**: [Trustpilot](https://www.trustpilot.com/review/hungerstation.com) | [Reddit](https://www.reddit.com/r/Riyadh/comments/1fisgaz/horrible_experience_with_hunger_station/) [web:32]  
+**Market**: [Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/saudi-arabia-delivery-apps-market) | [TechSci](https://www.techsciresearch.com/report/saudi-arabia-online-food-ordering-and-delivery-market/7245.html)
+**Complaints**: [Trustpilot](https://www.trustpilot.com/review/hungerstation.com) | [Reddit](https://www.reddit.com/r/Riyadh/comments/1fisgaz/horrible_experience_with_hunger_station/)
 **Legal**: [Cayman vs Ninja](https://www.collascrill.com/articles/hungerstation-holding-ltd-and-hungerstation-llc-v-ninja-holding-2025-cigc-fsd-99/)
