@@ -1,6 +1,6 @@
 # HungerStation Saudi Market Analysis (Project in progress)
 
-**Live at**: https://aliya-create.github.io/HungerStation-Saudi-Market-Analysis/#market
+**Live at**: https://aliya-create.github.io/HungerStation-Saudi-Market-Analysis/
 ---
 
 ## Project Summary
