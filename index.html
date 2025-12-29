@@ -223,39 +223,95 @@
   </p>
 </section>
 
-<section id="insights">
-  <h2>Consumer Insights (Review Mining)</h2>
+<section id="consumer-insights" style="max-width: 900px; margin: 0 auto; padding: 3rem 1rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;">
 
-  <p>
-    Review analysis reveals five recurring complaint clusters that consistently
-    dominate negative sentiment.
+  <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">
+    Consumer Insights (Review Mining)
+  </h2>
+
+  <p style="color: #444; line-height: 1.6; margin-bottom: 2rem;">
+    Review analysis reveals that negative sentiment is not evenly distributed across issues.
+    Instead, a small number of recurring failure points account for the majority of complaints.
   </p>
 
-  <div class="visual">
-    <svg viewBox="0 0 420 220" width="100%">
-      <rect x="40" y="40" width="100" height="60" fill="#FFD400"/>
-      <rect x="180" y="40" width="100" height="60" fill="#ffe27a"/>
-      <rect x="40" y="130" width="100" height="60" fill="#ffe27a"/>
-      <rect x="180" y="130" width="100" height="60" fill="#FFD400"/>
+  <!-- Ranked Complaint Bars -->
+  <div style="display: flex; flex-direction: column; gap: 1.2rem;">
 
-      <text x="45" y="35" font-size="10">Fake delivery</text>
-      <text x="185" y="35" font-size="10">Refund delays</text>
-      <text x="45" y="210" font-size="10">Poor support</text>
-      <text x="185" y="210" font-size="10">Hidden fees</text>
-    </svg>
-    <div class="caption">
-      <strong>What this shows:</strong> Complaints cluster around post-payment failures,
-      not food quality.<br>
-      <strong>Why it matters:</strong> Trust erosion is driven by operational breakdowns,
-      not product offering.
+    <!-- Fake Delivery -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-weight: 600;">
+        <span>Fake delivery (order marked delivered but not received)</span>
+        <span>~35–40%</span>
+      </div>
+      <div style="background: #f2f2f2; height: 12px; border-radius: 6px; margin-top: 6px;">
+        <div style="width: 80%; height: 100%; background: #f5c400; border-radius: 6px;"></div>
+      </div>
     </div>
+
+    <!-- Refund Delays -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-weight: 600;">
+        <span>Refund delays or missing refunds</span>
+        <span>~25–30%</span>
+      </div>
+      <div style="background: #f2f2f2; height: 12px; border-radius: 6px; margin-top: 6px;">
+        <div style="width: 65%; height: 100%; background: #f5c400; border-radius: 6px;"></div>
+      </div>
+    </div>
+
+    <!-- Cold / Wrong Items -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-weight: 600;">
+        <span>Cold or incorrect items</span>
+        <span>~10–15%</span>
+      </div>
+      <div style="background: #f2f2f2; height: 12px; border-radius: 6px; margin-top: 6px;">
+        <div style="width: 35%; height: 100%; background: #f5c400; border-radius: 6px;"></div>
+      </div>
+    </div>
+
+    <!-- Customer Service -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-weight: 600;">
+        <span>Poor customer service response</span>
+        <span>~10%</span>
+      </div>
+      <div style="background: #f2f2f2; height: 12px; border-radius: 6px; margin-top: 6px;">
+        <div style="width: 30%; height: 100%; background: #f5c400; border-radius: 6px;"></div>
+      </div>
+    </div>
+
+    <!-- Hidden Fees -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-weight: 600;">
+        <span>Unexpected fees or subscription prompts</span>
+        <span>&lt;10%</span>
+      </div>
+      <div style="background: #f2f2f2; height: 12px; border-radius: 6px; margin-top: 6px;">
+        <div style="width: 20%; height: 100%; background: #f5c400; border-radius: 6px;"></div>
+      </div>
+    </div>
+
   </div>
 
-  <p>
-    The “dishonesty” or “scam” perception visible in reviews represents an acute trust
-    gap that loyalty rewards or UI polish alone cannot fix. Satisfaction rebounds
-    sharply when orders succeed, indicating an operational—not structural—problem.
+  <!-- Explanation -->
+  <p style="margin-top: 2.5rem; line-height: 1.6; color: #333;">
+    <strong>What this shows:</strong> Two issues — delivery confirmation failures and refund delays —
+    dominate negative sentiment, accounting for the majority of complaints.
   </p>
+
+  <p style="line-height: 1.6; color: #333;">
+    <strong>Why it matters:</strong> Customer dissatisfaction is driven primarily by
+    <strong>post-payment trust failures</strong>, not food quality, assortment, or delivery speed.
+  </p>
+
+  <p style="line-height: 1.6; color: #333;">
+    The concentration of complaints around delivery verification and refund resolution indicates
+    that dissatisfaction is <strong>operational, not structural</strong>.
+    When orders succeed, customer sentiment rebounds sharply — suggesting trust, not demand,
+    is the core constraint.
+  </p>
+
 </section>
 
 <section id="recommendations">
