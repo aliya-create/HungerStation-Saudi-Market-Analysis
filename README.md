@@ -1,4 +1,4 @@
-# HungerStation Saudi Market Analysis (Project in progress)
+# HungerStation Saudi Market Analysis
 
 **Live at**: https://aliya-create.github.io/HungerStation-Saudi-Market-Analysis/
 ---
